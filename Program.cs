@@ -5,10 +5,7 @@
         static void Main()
         {
             Console.WriteLine("Белые: L, Z, K, U, E, S, V\n" +
-                              "Чёрные: I, A, N, T, O\n" +
-                              "Переключение между октавами F1 и F2\n" +
-                              "Для выхода  нажмите клавишу Escape\n" +
-                              "Выберите октаву");
+                              "Чёрные: I, A, N, T, O\n");
 
             ConsoleKeyInfo key = Console.ReadKey();
             Console.Clear();
