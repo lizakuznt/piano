@@ -4,8 +4,7 @@
     {
         static void Main()
         {
-            Console.WriteLine("Белые: L, Z, K, U, E, S, V\n" +
-                              "Чёрные: I, A, N, T, O\n");
+            Console.WriteLine("Белые: L, Z, K, U, E, S, V\nЧёрные: I, A, N, T, O\n");
 
             ConsoleKeyInfo key = Console.ReadKey();
             Console.Clear();
